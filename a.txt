@@ -123,16 +123,9 @@ py -m pip list
 python --version
 
 
-Soalan 1
 py soalan1.py
-
-Soalan 2
 py soalan2.py
-
-Soalan 3
 pip install streamlit
 py -m streamlit run soalan3.py
-
-Soalan 4
 pip install pandas numpy
 py soalan4.py
