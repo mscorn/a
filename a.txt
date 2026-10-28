@@ -116,6 +116,8 @@ df_orders['Net_Amount'] = df_orders['Gross_Amount'] * (1 - df_orders['Discount_R
 hasil = df_orders[(df_orders['Quantity'] >= 2) & (df_orders['Net_Amount'] > 300)]
 print(hasil.sort_values('Net_Amount', ascending=False))
 print(df_orders.groupby('Category').agg({'Quantity': 'sum', 'Net_Amount': 'mean'}))
+
+
 ctrl + ~ to vs terminal
 py -m pip list
 python --version
