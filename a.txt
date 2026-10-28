@@ -120,12 +120,16 @@ print(df_orders.groupby('Category').agg({'Quantity': 'sum', 'Net_Amount': 'mean'
 
 ctrl + ~ to vs terminal
 py -m pip list
+py -3.13 -m pip install pandas numpy streamlit
 python --version
-
 
 py soalan1.py
 py soalan2.py
+
 pip install streamlit
 py -m streamlit run soalan3.py
+
 pip install pandas numpy
+py -3.13 q4.py
+py -m pip install pandas numpy
 py soalan4.py
